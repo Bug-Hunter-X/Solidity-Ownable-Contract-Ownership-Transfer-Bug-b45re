@@ -1,0 +1,3 @@
+# Solidity Ownable Contract Ownership Transfer Bug
+
+This repository contains a demonstration of a common bug in Solidity Ownable contracts, where ownership can unintentionally be transferred to the zero address. The bug is demonstrated in `bug.sol`, and a corrected version is provided in `bugSolution.sol`. This is a crucial vulnerability because losing ownership can lead to the loss of control and functionality of the contract.
